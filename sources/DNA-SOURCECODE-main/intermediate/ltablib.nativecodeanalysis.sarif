@@ -1,0 +1,335 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6385",
+          "message": {
+            "text": "Reading invalid data from 'buff'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/phatpeen/Documents/GitHub/dna-sdk/includes/lua/src/ltablib.c"
+                },
+                "region": {
+                  "startLine": 266,
+                  "startColumn": 5,
+                  "endLine": 266,
+                  "endColumn": 17
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "l_randomizePivot",
+                  "decoratedName": "l_randomizePivot",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/phatpeen/Documents/GitHub/dna-sdk/includes/lua/src/ltablib.c"
+                          },
+                          "region": {
+                            "startLine": 259,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/phatpeen/Documents/GitHub/dna-sdk/includes/lua/src/ltablib.c"
+                          },
+                          "region": {
+                            "startLine": 260,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/phatpeen/Documents/GitHub/dna-sdk/includes/lua/src/ltablib.c"
+                          },
+                          "region": {
+                            "startLine": 261,
+                            "startColumn": 16
+                          }
+                        },
+                        "message": {
+                          "text": "'buff' is a 12 byte array"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/phatpeen/Documents/GitHub/dna-sdk/includes/lua/src/ltablib.c"
+                          },
+                          "region": {
+                            "startLine": 262,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/phatpeen/Documents/GitHub/dna-sdk/includes/lua/src/ltablib.c"
+                          },
+                          "region": {
+                            "startLine": 262,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/phatpeen/Documents/GitHub/dna-sdk/includes/lua/src/ltablib.c"
+                          },
+                          "region": {
+                            "startLine": 263,
+                            "startColumn": 3
+                          }
+                        },
+                        "message": {
+                          "text": "'buff' is an Output from 'memcpy' (declared at <no file>:0)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/phatpeen/Documents/GitHub/dna-sdk/includes/lua/src/ltablib.c"
+                          },
+                          "region": {
+                            "startLine": 264,
+                            "startColumn": 3
+                          }
+                        },
+                        "message": {
+                          "text": "'buff' is an In/Out argument to 'memcpy' (declared at <no file>:0)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/phatpeen/Documents/GitHub/dna-sdk/includes/lua/src/ltablib.c"
+                          },
+                          "region": {
+                            "startLine": 265,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/phatpeen/Documents/GitHub/dna-sdk/includes/lua/src/ltablib.c"
+                          },
+                          "region": {
+                            "startLine": 265,
+                            "startColumn": 17
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume '<branch condition>')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/phatpeen/Documents/GitHub/dna-sdk/includes/lua/src/ltablib.c"
+                          },
+                          "region": {
+                            "startLine": 266,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/phatpeen/Documents/GitHub/dna-sdk/includes/lua/src/ltablib.c"
+                          },
+                          "region": {
+                            "startLine": 265,
+                            "startColumn": 31
+                          }
+                        },
+                        "message": {
+                          "text": "'i' may equal 1"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/phatpeen/Documents/GitHub/dna-sdk/includes/lua/src/ltablib.c"
+                          },
+                          "region": {
+                            "startLine": 265,
+                            "startColumn": 17
+                          }
+                        },
+                        "message": {
+                          "text": "Continue this loop, (assume '<branch condition>')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/phatpeen/Documents/GitHub/dna-sdk/includes/lua/src/ltablib.c"
+                          },
+                          "region": {
+                            "startLine": 266,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "Invalid read from 'buff[1]', (readable range is 0 to 0)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.38.33135.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/phatpeen/Documents/GitHub/dna-sdk/includes/lua/src/ltablib.c"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "604e43b05b4bf1a9b25c5f023c000022875d792410ff1895083d9f6a051ce283"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/phatpeen/documents/github/dna-sdk/includes/lua/src/lprefix.h"
+          },
+          "hashes": {
+            "sha-256": "e0c0fcc19ae3d98f87df6a55b9ae7b4aaee1a0173f8aecd2c0fbfac5aba1ddd2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/phatpeen/documents/github/dna-sdk/includes/lua/src/lua.h"
+          },
+          "hashes": {
+            "sha-256": "ad0c88137d59e93f88c416f1f24661fd5d529d2658b10ffa9c283a94a507af82"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/phatpeen/documents/github/dna-sdk/includes/lua/src/luaconf.h"
+          },
+          "hashes": {
+            "sha-256": "3c8b9d0205af7020728e345a69799b0aa25c662eec28ea04efcca65c4dac7a7d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/phatpeen/documents/github/dna-sdk/includes/lua/src/lauxlib.h"
+          },
+          "hashes": {
+            "sha-256": "b402036cde8fcc9180d28ead326cdac20381a352561c4cfd4fc11cf92aeea85b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/phatpeen/documents/github/dna-sdk/includes/lua/src/lualib.h"
+          },
+          "hashes": {
+            "sha-256": "ff460960aad15065580bbd64a49dcd73e9b9d728209a1d0dfedee4817c6f0543"
+          }
+        }
+      ]
+    }
+  ]
+}

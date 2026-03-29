@@ -1,0 +1,67 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.38.33135.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/phatpeen/documents/github/dna-sdk/includes/minhook/hde/hde32.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "16ba3e1e257d1ecf56808f81b14249195d16d478cbdf75044c3f2fb3a311d763"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/phatpeen/documents/github/dna-sdk/includes/minhook/hde/hde32.h"
+          },
+          "hashes": {
+            "sha-256": "0af97b58cd49ffa23d7f73409dc9f5d2acbead9c6e084c6242388964a4bcf1f3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/phatpeen/documents/github/dna-sdk/includes/minhook/hde/pstdint.h"
+          },
+          "hashes": {
+            "sha-256": "d34c5a48545b309bfe2ef297e8a64fb8e6e3e2688323a9c8d0c4905809e8f90a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files (x86)/microsoft directx sdk (june 2010)/include/rpcsal.h"
+          },
+          "hashes": {
+            "sha-256": "e591c6b5171243a513694ef788011e411222393b422c988a23014071afc8c37c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/phatpeen/documents/github/dna-sdk/includes/minhook/hde/table32.h"
+          },
+          "hashes": {
+            "sha-256": "285823a3c2c2f6d427db40525f8c47bf1d4acb83aeb3400ba650172fc84c3955"
+          }
+        }
+      ]
+    }
+  ]
+}

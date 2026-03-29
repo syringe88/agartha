@@ -1,0 +1,673 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6386",
+          "message": {
+            "text": "Buffer overrun while writing to 'ms->capture'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/phatpeen/Documents/GitHub/dna-sdk/includes/lua/src/lstrlib.c"
+                },
+                "region": {
+                  "startLine": 394,
+                  "startColumn": 3,
+                  "endLine": 394,
+                  "endColumn": 29
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "start_capture",
+                  "decoratedName": "start_capture",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/phatpeen/Documents/GitHub/dna-sdk/includes/lua/src/lstrlib.c"
+                          },
+                          "region": {
+                            "startLine": 391,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/phatpeen/Documents/GitHub/dna-sdk/includes/lua/src/lstrlib.c"
+                          },
+                          "region": {
+                            "startLine": 392,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/phatpeen/Documents/GitHub/dna-sdk/includes/lua/src/lstrlib.c"
+                          },
+                          "region": {
+                            "startLine": 393,
+                            "startColumn": 13
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this branch, (assume 'level>=32')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/phatpeen/Documents/GitHub/dna-sdk/includes/lua/src/lstrlib.c"
+                          },
+                          "region": {
+                            "startLine": 393,
+                            "startColumn": 33
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/phatpeen/Documents/GitHub/dna-sdk/includes/lua/src/lstrlib.c"
+                          },
+                          "region": {
+                            "startLine": 394,
+                            "startColumn": 27
+                          }
+                        },
+                        "message": {
+                          "text": "Invalid write to 'ms->capture[32]', (writable range is 0 to 31)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C28182",
+          "message": {
+            "text": "Dereferencing NULL pointer. 'src' contains the same NULL value as 'e=match(&ms, src, p)' did. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/phatpeen/Documents/GitHub/dna-sdk/includes/lua/src/lstrlib.c"
+                },
+                "region": {
+                  "startLine": 790,
+                  "startColumn": 7
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "str_gsub",
+                  "decoratedName": "str_gsub",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/phatpeen/Documents/GitHub/dna-sdk/includes/lua/src/lstrlib.c"
+                          },
+                          "region": {
+                            "startLine": 763,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/phatpeen/Documents/GitHub/dna-sdk/includes/lua/src/lstrlib.c"
+                          },
+                          "region": {
+                            "startLine": 763,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/phatpeen/Documents/GitHub/dna-sdk/includes/lua/src/lstrlib.c"
+                          },
+                          "region": {
+                            "startLine": 764,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/phatpeen/Documents/GitHub/dna-sdk/includes/lua/src/lstrlib.c"
+                          },
+                          "region": {
+                            "startLine": 765,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/phatpeen/Documents/GitHub/dna-sdk/includes/lua/src/lstrlib.c"
+                          },
+                          "region": {
+                            "startLine": 766,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/phatpeen/Documents/GitHub/dna-sdk/includes/lua/src/lstrlib.c"
+                          },
+                          "region": {
+                            "startLine": 767,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/phatpeen/Documents/GitHub/dna-sdk/includes/lua/src/lstrlib.c"
+                          },
+                          "region": {
+                            "startLine": 768,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/phatpeen/Documents/GitHub/dna-sdk/includes/lua/src/lstrlib.c"
+                          },
+                          "region": {
+                            "startLine": 769,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/phatpeen/Documents/GitHub/dna-sdk/includes/lua/src/lstrlib.c"
+                          },
+                          "region": {
+                            "startLine": 770,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/phatpeen/Documents/GitHub/dna-sdk/includes/lua/src/lstrlib.c"
+                          },
+                          "region": {
+                            "startLine": 771,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/phatpeen/Documents/GitHub/dna-sdk/includes/lua/src/lstrlib.c"
+                          },
+                          "region": {
+                            "startLine": 772,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/phatpeen/Documents/GitHub/dna-sdk/includes/lua/src/lstrlib.c"
+                          },
+                          "region": {
+                            "startLine": 773,
+                            "startColumn": 3
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/phatpeen/Documents/GitHub/dna-sdk/includes/lua/src/lstrlib.c"
+                          },
+                          "region": {
+                            "startLine": 776,
+                            "startColumn": 3
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/phatpeen/Documents/GitHub/dna-sdk/includes/lua/src/lstrlib.c"
+                          },
+                          "region": {
+                            "startLine": 777,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/phatpeen/Documents/GitHub/dna-sdk/includes/lua/src/lstrlib.c"
+                          },
+                          "region": {
+                            "startLine": 780,
+                            "startColumn": 3
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/phatpeen/Documents/GitHub/dna-sdk/includes/lua/src/lstrlib.c"
+                          },
+                          "region": {
+                            "startLine": 781,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/phatpeen/Documents/GitHub/dna-sdk/includes/lua/src/lstrlib.c"
+                          },
+                          "region": {
+                            "startLine": 782,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/phatpeen/Documents/GitHub/dna-sdk/includes/lua/src/lstrlib.c"
+                          },
+                          "region": {
+                            "startLine": 783,
+                            "startColumn": 5
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/phatpeen/Documents/GitHub/dna-sdk/includes/lua/src/lstrlib.c"
+                          },
+                          "region": {
+                            "startLine": 784,
+                            "startColumn": 42
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/phatpeen/Documents/GitHub/dna-sdk/includes/lua/src/lstrlib.c"
+                          },
+                          "region": {
+                            "startLine": 785,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/phatpeen/Documents/GitHub/dna-sdk/includes/lua/src/lstrlib.c"
+                          },
+                          "region": {
+                            "startLine": 786,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/phatpeen/Documents/GitHub/dna-sdk/includes/lua/src/lstrlib.c"
+                          },
+                          "region": {
+                            "startLine": 787,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/phatpeen/Documents/GitHub/dna-sdk/includes/lua/src/lstrlib.c"
+                          },
+                          "region": {
+                            "startLine": 792,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/phatpeen/Documents/GitHub/dna-sdk/includes/lua/src/lstrlib.c"
+                          },
+                          "region": {
+                            "startLine": 781,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/phatpeen/Documents/GitHub/dna-sdk/includes/lua/src/lstrlib.c"
+                          },
+                          "region": {
+                            "startLine": 782,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/phatpeen/Documents/GitHub/dna-sdk/includes/lua/src/lstrlib.c"
+                          },
+                          "region": {
+                            "startLine": 783,
+                            "startColumn": 5
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/phatpeen/Documents/GitHub/dna-sdk/includes/lua/src/lstrlib.c"
+                          },
+                          "region": {
+                            "startLine": 784,
+                            "startColumn": 42
+                          }
+                        },
+                        "message": {
+                          "text": "'src' may be NULL (Skip this branch)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/phatpeen/Documents/GitHub/dna-sdk/includes/lua/src/lstrlib.c"
+                          },
+                          "region": {
+                            "startLine": 789,
+                            "startColumn": 18
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this branch, (assume 'src<ms.src_end')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/phatpeen/Documents/GitHub/dna-sdk/includes/lua/src/lstrlib.c"
+                          },
+                          "region": {
+                            "startLine": 790,
+                            "startColumn": 7
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this loop, (assume '((&b))->n<((&b))->size' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/phatpeen/Documents/GitHub/dna-sdk/includes/lua/src/lstrlib.c"
+                          },
+                          "region": {
+                            "startLine": 790,
+                            "startColumn": 7
+                          }
+                        },
+                        "message": {
+                          "text": "'src' is dereferenced, but may still be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.38.33135.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/phatpeen/Documents/GitHub/dna-sdk/includes/lua/src/lstrlib.c"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "4a9e9ce6722e7e3432cc3c7381d20088c47b5276062605596dda3a30b72e22b2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/phatpeen/documents/github/dna-sdk/includes/lua/src/lprefix.h"
+          },
+          "hashes": {
+            "sha-256": "e0c0fcc19ae3d98f87df6a55b9ae7b4aaee1a0173f8aecd2c0fbfac5aba1ddd2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/phatpeen/documents/github/dna-sdk/includes/lua/src/lua.h"
+          },
+          "hashes": {
+            "sha-256": "ad0c88137d59e93f88c416f1f24661fd5d529d2658b10ffa9c283a94a507af82"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/phatpeen/documents/github/dna-sdk/includes/lua/src/luaconf.h"
+          },
+          "hashes": {
+            "sha-256": "3c8b9d0205af7020728e345a69799b0aa25c662eec28ea04efcca65c4dac7a7d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/phatpeen/documents/github/dna-sdk/includes/lua/src/lauxlib.h"
+          },
+          "hashes": {
+            "sha-256": "b402036cde8fcc9180d28ead326cdac20381a352561c4cfd4fc11cf92aeea85b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/phatpeen/documents/github/dna-sdk/includes/lua/src/lualib.h"
+          },
+          "hashes": {
+            "sha-256": "ff460960aad15065580bbd64a49dcd73e9b9d728209a1d0dfedee4817c6f0543"
+          }
+        }
+      ]
+    }
+  ]
+}

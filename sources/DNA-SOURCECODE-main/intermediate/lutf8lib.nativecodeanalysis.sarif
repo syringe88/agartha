@@ -1,0 +1,75 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.38.33135.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/phatpeen/documents/github/dna-sdk/includes/lua/src/lutf8lib.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "64bafbb98a0682dbe731e4dbef404537d30ef3d8a8694e6037aca982e8579abf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/phatpeen/documents/github/dna-sdk/includes/lua/src/lprefix.h"
+          },
+          "hashes": {
+            "sha-256": "e0c0fcc19ae3d98f87df6a55b9ae7b4aaee1a0173f8aecd2c0fbfac5aba1ddd2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/phatpeen/documents/github/dna-sdk/includes/lua/src/lua.h"
+          },
+          "hashes": {
+            "sha-256": "ad0c88137d59e93f88c416f1f24661fd5d529d2658b10ffa9c283a94a507af82"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/phatpeen/documents/github/dna-sdk/includes/lua/src/luaconf.h"
+          },
+          "hashes": {
+            "sha-256": "3c8b9d0205af7020728e345a69799b0aa25c662eec28ea04efcca65c4dac7a7d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/phatpeen/documents/github/dna-sdk/includes/lua/src/lauxlib.h"
+          },
+          "hashes": {
+            "sha-256": "b402036cde8fcc9180d28ead326cdac20381a352561c4cfd4fc11cf92aeea85b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/phatpeen/documents/github/dna-sdk/includes/lua/src/lualib.h"
+          },
+          "hashes": {
+            "sha-256": "ff460960aad15065580bbd64a49dcd73e9b9d728209a1d0dfedee4817c6f0543"
+          }
+        }
+      ]
+    }
+  ]
+}

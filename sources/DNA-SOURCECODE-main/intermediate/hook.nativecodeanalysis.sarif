@@ -1,0 +1,97 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26454",
+          "message": {
+            "text": "Arithmetic overflow: '-' operation produces a negative unsigned result at compile time (io.5)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/phatpeen/Documents/GitHub/dna-sdk/includes/minhook/hook.c"
+                },
+                "region": {
+                  "startLine": 377,
+                  "startColumn": 33,
+                  "endLine": 377,
+                  "endColumn": 62
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EnableHookLL",
+                  "decoratedName": "EnableHookLL",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.38.33135.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/phatpeen/Documents/GitHub/dna-sdk/includes/minhook/hook.c"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "72c4aa60acab0cf01e5b35b1e051f67e94133b4045c593227edc382a94600034"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files (x86)/microsoft directx sdk (june 2010)/include/rpcsal.h"
+          },
+          "hashes": {
+            "sha-256": "e591c6b5171243a513694ef788011e411222393b422c988a23014071afc8c37c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/phatpeen/documents/github/dna-sdk/includes/minhook/minhook.h"
+          },
+          "hashes": {
+            "sha-256": "2d16261c93e57f8cd29e7bce7bf8e12188d8f9e88503cd65d1e12efcab451b9d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/phatpeen/documents/github/dna-sdk/includes/minhook/buffer.h"
+          },
+          "hashes": {
+            "sha-256": "37a2aecfb3cd96617fcae00cd33317c528317a1902f4d1bbb405bcb52cff3769"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/phatpeen/documents/github/dna-sdk/includes/minhook/trampoline.h"
+          },
+          "hashes": {
+            "sha-256": "eacd5200438fbc1b386dee1a082c61caafa9c7c730c12dfc5016786153d0f7fa"
+          }
+        }
+      ]
+    }
+  ]
+}

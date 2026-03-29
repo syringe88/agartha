@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": ".\\intermediate\\c_physicscollision.h.obj",
+            "outputs": [
+                "C:\\Users\\Miguel\\Desktop\\dna-sdk\\intermediate\\vc143.pdb",
+                ".\\intermediate\\",
+                "C:\\Users\\Miguel\\Desktop\\dna-sdk\\intermediate\\c_physicscollision.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "sdk\\interfaces\\c_physicscollision.h",
+                    "source-path": "c:\\users\\miguel\\desktop\\dna-sdk\\sdk\\interfaces\\c_physicscollision.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

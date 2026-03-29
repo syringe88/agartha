@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": ".\\intermediate\\c_physicscollision.obj",
+            "outputs": [
+                ".\\intermediate\\c_physicscollision.h_E8A76D2D00135C6C.ifc.dt.module.json",
+                ".\\intermediate\\c_physicscollision.h_E8A76D2D00135C6C.ifc.dt.d.json",
+                ".\\intermediate\\c_physicscollision.h.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "C:\\Users\\Miguel\\Desktop\\dna-sdk\\sdk\\interfaces\\c_physicscollision.h",
+                    "source-path": "c:\\users\\miguel\\desktop\\dna-sdk\\sdk\\interfaces\\c_physicscollision.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

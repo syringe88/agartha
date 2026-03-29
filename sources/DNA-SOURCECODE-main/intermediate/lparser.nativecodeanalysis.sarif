@@ -1,0 +1,187 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.38.33135.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/phatpeen/documents/github/dna-sdk/includes/lua/src/lparser.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "305c6895a1c587a480fb959dee635fcf83b89146b6d86955ba4a43909e2de466"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/phatpeen/documents/github/dna-sdk/includes/lua/src/lprefix.h"
+          },
+          "hashes": {
+            "sha-256": "e0c0fcc19ae3d98f87df6a55b9ae7b4aaee1a0173f8aecd2c0fbfac5aba1ddd2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/phatpeen/documents/github/dna-sdk/includes/lua/src/lua.h"
+          },
+          "hashes": {
+            "sha-256": "ad0c88137d59e93f88c416f1f24661fd5d529d2658b10ffa9c283a94a507af82"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/phatpeen/documents/github/dna-sdk/includes/lua/src/luaconf.h"
+          },
+          "hashes": {
+            "sha-256": "3c8b9d0205af7020728e345a69799b0aa25c662eec28ea04efcca65c4dac7a7d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/phatpeen/documents/github/dna-sdk/includes/lua/src/lcode.h"
+          },
+          "hashes": {
+            "sha-256": "16dcc44abd4c09d54fb78d44aac1a4e15691c90409260cd45aeee4add48d8cee"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/phatpeen/documents/github/dna-sdk/includes/lua/src/llex.h"
+          },
+          "hashes": {
+            "sha-256": "cf38677869f342c6495886bd7b883926bcceecdf111918e77951efcf98a59592"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/phatpeen/documents/github/dna-sdk/includes/lua/src/lobject.h"
+          },
+          "hashes": {
+            "sha-256": "dcf71ef0b0b262db8620eab9bb5c299e4c74d9039c0647fa85ff2771df7b8eba"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/phatpeen/documents/github/dna-sdk/includes/lua/src/llimits.h"
+          },
+          "hashes": {
+            "sha-256": "040e379fe01874d6955160d7cbbc4de8c6a603477282b46c09a030e8228cba8e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/phatpeen/documents/github/dna-sdk/includes/lua/src/lzio.h"
+          },
+          "hashes": {
+            "sha-256": "6321310217c0de5f1a9ea8fd526aa612af3e30c7ce8263acd75a4cea9d3a34c2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/phatpeen/documents/github/dna-sdk/includes/lua/src/lmem.h"
+          },
+          "hashes": {
+            "sha-256": "647d7abb4c1409e3d2737c938b5b3e880e3675d061f39cd2ad5ff7ea2b743a35"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/phatpeen/documents/github/dna-sdk/includes/lua/src/lopcodes.h"
+          },
+          "hashes": {
+            "sha-256": "f6ed980dc9cab58f1392757baabc9f1fecf5823148ca10c968c6f79fad7cda36"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/phatpeen/documents/github/dna-sdk/includes/lua/src/lparser.h"
+          },
+          "hashes": {
+            "sha-256": "dd8a2820db595f5caf8df670bc95f4d98d09ebcc4614352283c5f14d71dc1881"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/phatpeen/documents/github/dna-sdk/includes/lua/src/ldebug.h"
+          },
+          "hashes": {
+            "sha-256": "79c3ffcf75a66b1ee832ec7b3a2c4ecd9609b729eab0ed5bb4fe3807248cd261"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/phatpeen/documents/github/dna-sdk/includes/lua/src/lstate.h"
+          },
+          "hashes": {
+            "sha-256": "cd2b5dbed9a56b1fb2008e5cc59908ad2a0cf1d74316deb6aef347bc856b6ae8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/phatpeen/documents/github/dna-sdk/includes/lua/src/ltm.h"
+          },
+          "hashes": {
+            "sha-256": "af6f29d9a877f44789b07bb57083d442601f919a39f72591acd9ae08f4465fa4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/phatpeen/documents/github/dna-sdk/includes/lua/src/ldo.h"
+          },
+          "hashes": {
+            "sha-256": "e2f95025af7c0430375704655deb737446ca16680593a5a3a9eae545c1da34a5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/phatpeen/documents/github/dna-sdk/includes/lua/src/lfunc.h"
+          },
+          "hashes": {
+            "sha-256": "93d06a45223101d7c65e617e808d70e7b2bbd166840c6898ae89f7ba5b9f3c0c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/phatpeen/documents/github/dna-sdk/includes/lua/src/lstring.h"
+          },
+          "hashes": {
+            "sha-256": "19ed50c84d033c5a2ced831c1a0bb1ec50e7605db912455100488645c6746f1c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/phatpeen/documents/github/dna-sdk/includes/lua/src/lgc.h"
+          },
+          "hashes": {
+            "sha-256": "e50b1ae3f53d0bc88d9a3c1a139622fba6d80bd00a41e6205fa2bd6e1b599326"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/phatpeen/documents/github/dna-sdk/includes/lua/src/ltable.h"
+          },
+          "hashes": {
+            "sha-256": "fc2d833300726ed3f196a986d8e21a02344df27e6061147078a129cb92905620"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,478 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(523,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(524,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(538,5): warning MSB8028: The intermediate directory (.\intermediate\) contains files shared from another project (billwareV2.vcxproj, csgo sdk.vcxproj, delusional.vcxproj, fishhack.vcxproj, illusory.vcxproj, liminal.vcxproj, linear.vcxproj, mHook.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Scanning sources for module dependencies...
+cl : command line  warning D9025: overriding '/std:c++23preview' with '/std:c++latest'
+  c_physicscollision.h
+cl : command line  warning D9025: overriding '/std:c++23preview' with '/std:c++latest'
+  v_collide_t.h
+  Compiling...
+cl : command line  warning D9025: overriding '/std:c++23preview' with '/std:c++latest'
+cl : command line  warning D9025: overriding '/std:c++23preview' with '/std:c++latest'
+  v_collide_t.h
+  c_physicscollision.h
+cl : command line  warning D9025: overriding '/std:c++23preview' with '/std:c++latest'
+cl : command line  warning D9025: overriding '/std:c++23preview' with '/std:c++latest'
+cl : command line  warning D9025: overriding '/std:c++23preview' with '/std:c++latest'
+cl : command line  warning D9025: overriding '/std:c++23preview' with '/std:c++latest'
+  dllmain.cpp
+  aimbot.cpp
+  autowall.cpp
+cl : command line  warning D9025: overriding '/std:c++23preview' with '/std:c++latest'
+cl : command line  warning D9025: overriding '/std:c++23preview' with '/std:c++latest'
+cl : command line  warning D9025: overriding '/std:c++23preview' with '/std:c++latest'
+cl : command line  warning D9025: overriding '/std:c++23preview' with '/std:c++latest'
+cl : command line  warning D9025: overriding '/std:c++23preview' with '/std:c++latest'
+  backtrack.cpp
+  rage.cpp
+  triggerbot.cpp
+  cache.cpp
+  events.cpp
+cl : command line  warning D9025: overriding '/std:c++23preview' with '/std:c++latest'
+cl : command line  warning D9025: overriding '/std:c++23preview' with '/std:c++latest'
+cl : command line  warning D9025: overriding '/std:c++23preview' with '/std:c++latest'
+  jumpstats.cpp
+  misc.cpp
+  assist.cpp
+cl : command line  warning D9025: overriding '/std:c++23preview' with '/std:c++latest'
+  movement.cpp
+  recorder.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\chrono(2359,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+  (compiling source file 'dllmain.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\chrono(2359,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+  (compiling source file 'features/events/events.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\chrono(2359,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+  (compiling source file 'features/movement/assist.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\chrono(2359,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+  (compiling source file 'features/aimbot/aimbot.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\chrono(2359,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+  (compiling source file 'features/movement/recorder.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\chrono(2359,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+  (compiling source file 'features/movement/movement.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\chrono(2359,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+  (compiling source file 'features/aimbot/triggerbot.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\chrono(2359,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+  (compiling source file 'features/aimbot/backtrack.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\chrono(2359,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+  (compiling source file 'features/misc/jumpstats.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\chrono(2359,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+  (compiling source file 'features/cache/cache.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\chrono(2359,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+  (compiling source file 'features/misc/misc.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\chrono(2359,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+  (compiling source file 'features/aimbot/autowall.cpp')
+  
+  utility.cpp
+  scaleform.cpp
+  prediction.cpp
+  scripts.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\chrono(2359,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+  (compiling source file 'features/panorama/scaleform.cpp')
+  
+  knife_proxy.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\chrono(2359,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+  (compiling source file 'features/movement/utility.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\chrono(2359,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+  (compiling source file 'features/scripts/scripts.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\chrono(2359,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+  (compiling source file 'features/movement/prediction/prediction.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(4813,18): warning C4244: '=': conversion from 'wchar_t' to 'char', possible loss of data
+  (compiling source file 'features/misc/misc.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(4813,18):
+      the template instantiation context (the oldest one first) is
+          C:\Users\Miguel\Desktop\dna-sdk\features\misc\misc.cpp(908,20):
+          see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+              C:\Users\Miguel\Desktop\dna-sdk\features\misc\misc.cpp(908,20):
+              see the first reference to 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string' in 'features::misc::handle_spotify'
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xstring(812,17):
+          see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<wchar_t*,wchar_t*,_Size_type>(_Iter,const _Sent,_Size)' being compiled
+          with
+          [
+              _Size_type=unsigned int,
+              _Iter=wchar_t *,
+              _Sent=wchar_t *,
+              _Size=unsigned int
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xstring(968,18):
+          see reference to function template instantiation '_OutIt *std::_Copy_n_unchecked4<wchar_t*,_Size,char*>(_InIt,_SizeTy,_OutIt)' being compiled
+          with
+          [
+              _OutIt=char *,
+              _Size=unsigned int,
+              _InIt=wchar_t *,
+              _SizeTy=unsigned int
+          ]
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\chrono(2359,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+  (compiling source file 'features/skins/knife_proxy.cpp')
+  
+  parser.cpp
+  skins.cpp
+  chams.cpp
+  glow.cpp
+  grenade_prediction.cpp
+  player.cpp
+  visuals.cpp
+  weather.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\chrono(2359,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+  (compiling source file 'features/skins/parser.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\chrono(2359,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+  (compiling source file 'features/skins/skins.cpp')
+  
+  alloc_key_values_memory.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\chrono(2359,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+  (compiling source file 'features/visuals/chams.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\chrono(2359,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+  (compiling source file 'features/visuals/glow.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\chrono(2359,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+  (compiling source file 'features/visuals/grenade_prediction.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\chrono(2359,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+  (compiling source file 'features/visuals/visuals.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\chrono(2359,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+  (compiling source file 'features/visuals/player.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\chrono(2359,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+  (compiling source file 'features/visuals/weather.cpp')
+  
+  base_player.cpp
+  create_move.cpp
+  d3d.cpp
+  do_post_screen_effects.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\chrono(2359,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+  (compiling source file 'hooks/functions/alloc_key_values_memory.cpp')
+  
+  draw_model_execute.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\chrono(2359,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+  (compiling source file 'hooks/functions/base_player.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\chrono(2359,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+  (compiling source file 'hooks/functions/d3d.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\chrono(2359,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+  (compiling source file 'hooks/functions/do_post_screen_effects.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\chrono(2359,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+  (compiling source file 'hooks/functions/create_move.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\chrono(2359,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+  (compiling source file 'hooks/functions/draw_model_execute.cpp')
+  
+  draw_set_color.cpp
+  emit_sound.cpp
+  fire_event.cpp
+  frame_stage_notify.cpp
+  get_color_modulation.cpp
+  get_screen_aspect_ratio.cpp
+  insecure_bypass.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\chrono(2359,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+  (compiling source file 'hooks/functions/draw_set_color.cpp')
+  
+  is_connected.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\chrono(2359,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+  (compiling source file 'hooks/functions/emit_sound.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\chrono(2359,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+  (compiling source file 'hooks/functions/fire_event.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\chrono(2359,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+  (compiling source file 'hooks/functions/frame_stage_notify.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\chrono(2359,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+  (compiling source file 'hooks/functions/get_color_modulation.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\chrono(2359,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+  (compiling source file 'hooks/functions/get_screen_aspect_ratio.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\chrono(2359,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+  (compiling source file 'hooks/functions/insecure_bypass.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\chrono(2359,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+  (compiling source file 'hooks/functions/is_connected.cpp')
+  
+  level_init_pre_entity.cpp
+  list_leaves_in_box.cpp
+  lock_cursor.cpp
+  modify_eye_position.cpp
+  on_jump.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\chrono(2359,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+  (compiling source file 'hooks/functions/level_init_pre_entity.cpp')
+  
+  on_screen_size_changed.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\chrono(2359,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+  (compiling source file 'hooks/functions/list_leaves_in_box.cpp')
+  
+  override_mouse_input.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\chrono(2359,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+  (compiling source file 'hooks/functions/lock_cursor.cpp')
+  
+  override_view.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\chrono(2359,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+  (compiling source file 'hooks/functions/modify_eye_position.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\chrono(2359,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+  (compiling source file 'hooks/functions/on_screen_size_changed.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\chrono(2359,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+  (compiling source file 'hooks/functions/on_jump.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\chrono(2359,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+  (compiling source file 'hooks/functions/override_mouse_input.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\chrono(2359,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+  (compiling source file 'hooks/functions/override_view.cpp')
+  
+  paint_traverse.cpp
+  push_notice.cpp
+  send_datagram.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\chrono(2359,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+  (compiling source file 'hooks/functions/paint_traverse.cpp')
+  
+  set_visuals_data.cpp
+  should_draw_viewmodel.cpp
+  supports_full_depth.cpp
+  sv_pure.cpp
+  vsnprintf.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\chrono(2359,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+  (compiling source file 'hooks/functions/send_datagram.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\chrono(2359,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+  (compiling source file 'hooks/functions/push_notice.cpp')
+  
+  hooks.cpp
+  discord_rpc_load.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\chrono(2359,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+  (compiling source file 'hooks/functions/set_visuals_data.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\chrono(2359,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+  (compiling source file 'hooks/functions/should_draw_viewmodel.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\chrono(2359,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+  (compiling source file 'hooks/functions/supports_full_depth.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\chrono(2359,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+  (compiling source file 'hooks/functions/sv_pure.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\chrono(2359,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+  (compiling source file 'hooks/functions/vsnprintf.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\chrono(2359,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+  (compiling source file 'hooks/hooks.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\chrono(2359,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+  (compiling source file 'includes/discord/discord_rpc_load.cpp')
+  
+  connection_win.cpp
+C:\Users\Miguel\Desktop\dna-sdk\hooks\functions\push_notice.cpp(21,9): error C2664: 'auto std::make_format_args<std::format_context,std::string,std::string,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>(std::string &,std::string &,std::basic_string<char,std::char_traits<char>,std::allocator<char>> &)': cannot convert argument 1 from 'std::string' to 'std::string &'
+      C:\Users\Miguel\Desktop\dna-sdk\hooks\functions\push_notice.cpp(21,36):
+      A non-const reference may only be bound to an lvalue
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\format(2879,17):
+      see declaration of 'std::make_format_args'
+      C:\Users\Miguel\Desktop\dna-sdk\hooks\functions\push_notice.cpp(21,9):
+      while trying to match the argument list '(std::string, std::string, std::basic_string<char,std::char_traits<char>,std::allocator<char>>)'
+  
+C:\Users\Miguel\Desktop\dna-sdk\hooks\functions\push_notice.cpp(19,31): error C2672: 'std::__p2286::vformat': no matching overloaded function found
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\format(2980,20):
+      could be 'std::wstring std::__p2286::vformat(const std::locale &,const std::wstring_view,const std::wformat_args)'
+          C:\Users\Miguel\Desktop\dna-sdk\hooks\functions\push_notice.cpp(19,31):
+          'std::wstring std::__p2286::vformat(const std::locale &,const std::wstring_view,const std::wformat_args)': expects 3 arguments - 1 provided
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\format(2972,19):
+      or       'std::string std::__p2286::vformat(const std::locale &,const std::string_view,const std::format_args)'
+          C:\Users\Miguel\Desktop\dna-sdk\hooks\functions\push_notice.cpp(19,31):
+          'std::string std::__p2286::vformat(const std::locale &,const std::string_view,const std::format_args)': expects 3 arguments - 1 provided
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\format(2964,20):
+      or       'std::wstring std::__p2286::vformat(const std::wstring_view,const std::wformat_args)'
+          C:\Users\Miguel\Desktop\dna-sdk\hooks\functions\push_notice.cpp(19,31):
+          'std::wstring std::__p2286::vformat(const std::wstring_view,const std::wformat_args)': expects 2 arguments - 1 provided
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\format(2956,19):
+      or       'std::string std::__p2286::vformat(const std::string_view,const std::format_args)'
+          C:\Users\Miguel\Desktop\dna-sdk\hooks\functions\push_notice.cpp(19,31):
+          'std::string std::__p2286::vformat(const std::string_view,const std::format_args)': expects 2 arguments - 1 provided
+  
+C:\Users\Miguel\Desktop\dna-sdk\hooks\functions\push_notice.cpp(29,9): error C2664: 'auto std::make_format_args<std::format_context,std::string,std::string,std::basic_string<char,std::char_traits<char>,std::allocator<char>>>(std::string &,std::string &,std::basic_string<char,std::char_traits<char>,std::allocator<char>> &)': cannot convert argument 1 from 'std::string' to 'std::string &'
+      C:\Users\Miguel\Desktop\dna-sdk\hooks\functions\push_notice.cpp(29,36):
+      A non-const reference may only be bound to an lvalue
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\format(2879,17):
+      see declaration of 'std::make_format_args'
+      C:\Users\Miguel\Desktop\dna-sdk\hooks\functions\push_notice.cpp(29,9):
+      while trying to match the argument list '(std::string, std::string, std::basic_string<char,std::char_traits<char>,std::allocator<char>>)'
+  
+C:\Users\Miguel\Desktop\dna-sdk\hooks\functions\push_notice.cpp(27,31): error C2672: 'std::__p2286::vformat': no matching overloaded function found
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\format(2980,20):
+      could be 'std::wstring std::__p2286::vformat(const std::locale &,const std::wstring_view,const std::wformat_args)'
+          C:\Users\Miguel\Desktop\dna-sdk\hooks\functions\push_notice.cpp(27,31):
+          'std::wstring std::__p2286::vformat(const std::locale &,const std::wstring_view,const std::wformat_args)': expects 3 arguments - 1 provided
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\format(2972,19):
+      or       'std::string std::__p2286::vformat(const std::locale &,const std::string_view,const std::format_args)'
+          C:\Users\Miguel\Desktop\dna-sdk\hooks\functions\push_notice.cpp(27,31):
+          'std::string std::__p2286::vformat(const std::locale &,const std::string_view,const std::format_args)': expects 3 arguments - 1 provided
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\format(2964,20):
+      or       'std::wstring std::__p2286::vformat(const std::wstring_view,const std::wformat_args)'
+          C:\Users\Miguel\Desktop\dna-sdk\hooks\functions\push_notice.cpp(27,31):
+          'std::wstring std::__p2286::vformat(const std::wstring_view,const std::wformat_args)': expects 2 arguments - 1 provided
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\format(2956,19):
+      or       'std::string std::__p2286::vformat(const std::string_view,const std::format_args)'
+          C:\Users\Miguel\Desktop\dna-sdk\hooks\functions\push_notice.cpp(27,31):
+          'std::string std::__p2286::vformat(const std::string_view,const std::format_args)': expects 2 arguments - 1 provided
+  
+C:\Users\Miguel\Desktop\dna-sdk\hooks\functions\push_notice.cpp(90,92): error C2664: 'auto std::make_format_args<std::format_context,const _Elem*,int,int>(const _Elem *&,int &,int &)': cannot convert argument 1 from 'const _Elem *' to 'const _Elem *&'
+C:\Users\Miguel\Desktop\dna-sdk\hooks\functions\push_notice.cpp(90,92): error C2664:         with
+C:\Users\Miguel\Desktop\dna-sdk\hooks\functions\push_notice.cpp(90,92): error C2664:         [
+C:\Users\Miguel\Desktop\dna-sdk\hooks\functions\push_notice.cpp(90,92): error C2664:             _Elem=char
+C:\Users\Miguel\Desktop\dna-sdk\hooks\functions\push_notice.cpp(90,92): error C2664:         ]
+      C:\Users\Miguel\Desktop\dna-sdk\hooks\functions\push_notice.cpp(90,150):
+      A non-const reference may only be bound to an lvalue
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\format(2879,17):
+      see declaration of 'std::make_format_args'
+      C:\Users\Miguel\Desktop\dna-sdk\hooks\functions\push_notice.cpp(90,92):
+      while trying to match the argument list '(const _Elem *, int, int)'
+          with
+          [
+              _Elem=char
+          ]
+  
+C:\Users\Miguel\Desktop\dna-sdk\hooks\functions\push_notice.cpp(90,36): error C2672: 'std::__p2286::vformat': no matching overloaded function found
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\format(2980,20):
+      could be 'std::wstring std::__p2286::vformat(const std::locale &,const std::wstring_view,const std::wformat_args)'
+          C:\Users\Miguel\Desktop\dna-sdk\hooks\functions\push_notice.cpp(90,36):
+          'std::wstring std::__p2286::vformat(const std::locale &,const std::wstring_view,const std::wformat_args)': expects 3 arguments - 1 provided
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\format(2972,19):
+      or       'std::string std::__p2286::vformat(const std::locale &,const std::string_view,const std::format_args)'
+          C:\Users\Miguel\Desktop\dna-sdk\hooks\functions\push_notice.cpp(90,36):
+          'std::string std::__p2286::vformat(const std::locale &,const std::string_view,const std::format_args)': expects 3 arguments - 1 provided
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\format(2964,20):
+      or       'std::wstring std::__p2286::vformat(const std::wstring_view,const std::wformat_args)'
+          C:\Users\Miguel\Desktop\dna-sdk\hooks\functions\push_notice.cpp(90,36):
+          'std::wstring std::__p2286::vformat(const std::wstring_view,const std::wformat_args)': expects 2 arguments - 1 provided
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\format(2956,19):
+      or       'std::string std::__p2286::vformat(const std::string_view,const std::format_args)'
+          C:\Users\Miguel\Desktop\dna-sdk\hooks\functions\push_notice.cpp(90,36):
+          'std::string std::__p2286::vformat(const std::string_view,const std::format_args)': expects 2 arguments - 1 provided
+  
+C:\Users\Miguel\Desktop\dna-sdk\hooks\functions\push_notice.cpp(90,10): error C2064: term does not evaluate to a function taking 2 arguments
+      C:\Users\Miguel\Desktop\dna-sdk\hooks\functions\push_notice.cpp(90,10):
+      class does not define an 'operator()' or a user defined conversion operator to a pointer-to-function or reference-to-function that takes appropriate number of arguments
+      C:\Users\Miguel\Desktop\dna-sdk\hooks\functions\push_notice.cpp(90,10):
+      while trying to match the argument list '(int, int)'
+  
+C:\Users\Miguel\Desktop\dna-sdk\hooks\functions\push_notice.cpp(93,102): error C2664: 'auto std::make_format_args<std::format_context,const _Elem*,std::string,int,int>(const _Elem *&,std::string &,int &,int &)': cannot convert argument 1 from 'const _Elem *' to 'const _Elem *&'
+C:\Users\Miguel\Desktop\dna-sdk\hooks\functions\push_notice.cpp(93,102): error C2664:         with
+C:\Users\Miguel\Desktop\dna-sdk\hooks\functions\push_notice.cpp(93,102): error C2664:         [
+C:\Users\Miguel\Desktop\dna-sdk\hooks\functions\push_notice.cpp(93,102): error C2664:             _Elem=char
+C:\Users\Miguel\Desktop\dna-sdk\hooks\functions\push_notice.cpp(93,102): error C2664:         ]
+      C:\Users\Miguel\Desktop\dna-sdk\hooks\functions\push_notice.cpp(93,160):
+      A non-const reference may only be bound to an lvalue
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\format(2879,17):
+      see declaration of 'std::make_format_args'
+      C:\Users\Miguel\Desktop\dna-sdk\hooks\functions\push_notice.cpp(93,102):
+      while trying to match the argument list '(const _Elem *, std::string, int, int)'
+          with
+          [
+              _Elem=char
+          ]
+  
+C:\Users\Miguel\Desktop\dna-sdk\hooks\functions\push_notice.cpp(93,36): error C2672: 'std::__p2286::vformat': no matching overloaded function found
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\format(2980,20):
+      could be 'std::wstring std::__p2286::vformat(const std::locale &,const std::wstring_view,const std::wformat_args)'
+          C:\Users\Miguel\Desktop\dna-sdk\hooks\functions\push_notice.cpp(93,36):
+          'std::wstring std::__p2286::vformat(const std::locale &,const std::wstring_view,const std::wformat_args)': expects 3 arguments - 1 provided
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\format(2972,19):
+      or       'std::string std::__p2286::vformat(const std::locale &,const std::string_view,const std::format_args)'
+          C:\Users\Miguel\Desktop\dna-sdk\hooks\functions\push_notice.cpp(93,36):
+          'std::string std::__p2286::vformat(const std::locale &,const std::string_view,const std::format_args)': expects 3 arguments - 1 provided
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\format(2964,20):
+      or       'std::wstring std::__p2286::vformat(const std::wstring_view,const std::wformat_args)'
+          C:\Users\Miguel\Desktop\dna-sdk\hooks\functions\push_notice.cpp(93,36):
+          'std::wstring std::__p2286::vformat(const std::wstring_view,const std::wformat_args)': expects 2 arguments - 1 provided
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\format(2956,19):
+      or       'std::string std::__p2286::vformat(const std::string_view,const std::format_args)'
+          C:\Users\Miguel\Desktop\dna-sdk\hooks\functions\push_notice.cpp(93,36):
+          'std::string std::__p2286::vformat(const std::string_view,const std::format_args)': expects 2 arguments - 1 provided
+  
+C:\Users\Miguel\Desktop\dna-sdk\hooks\functions\push_notice.cpp(93,10): error C2064: term does not evaluate to a function taking 2 arguments
+      C:\Users\Miguel\Desktop\dna-sdk\hooks\functions\push_notice.cpp(93,10):
+      class does not define an 'operator()' or a user defined conversion operator to a pointer-to-function or reference-to-function that takes appropriate number of arguments
+      C:\Users\Miguel\Desktop\dna-sdk\hooks\functions\push_notice.cpp(93,10):
+      while trying to match the argument list '(int, int)'
+  
+  discord_register_win.cpp
+  discord_rpc.cpp
+  rpc_connection.cpp
+  serialization.cpp
+  etc_elements.cpp
+  imgui.cpp
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_impl_dx9.cpp
+  imgui_impl_win32.cpp
+  imgui_tables.cpp
+  imgui_widgets.cpp
+  imgui_freetype.cpp
+  nav_elements.cpp
+  jsoncpp.cpp
+  config.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\chrono(2359,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+  (compiling source file 'includes/discord/SourceFiles/discord_rpc.cpp')
+  
+  custom.cpp
+  menu.cpp
+  vec3.cpp
+  view_matrix.cpp
+  netvars.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(781,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+  (compiling source file 'includes/json/jsoncpp.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(781,9):
+      the template instantiation context (the oldest one first) is
+          C:\Users\Miguel\Desktop\dna-sdk\includes\json\jsoncpp.cpp(2566,9):
+          see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char *)' being compiled
+  
+  sdk.cpp
+  color.cpp
+  draw.cpp
+  render.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\chrono(2359,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+  (compiling source file 'menu/config/config.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\chrono(2359,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+  (compiling source file 'menu/custom.cpp')
+  
+  structures.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\chrono(2359,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+  (compiling source file 'menu/menu.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\chrono(2359,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+  (compiling source file 'sdk/netvars/netvars.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\chrono(2359,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+  (compiling source file 'sdk/sdk.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\chrono(2359,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+  (compiling source file 'utils/render/render.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\chrono(2359,9): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+  (compiling source file 'utils/render/draw.cpp')
+  

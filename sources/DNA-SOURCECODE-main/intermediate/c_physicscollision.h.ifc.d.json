@@ -1,0 +1,12 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\miguel\\desktop\\dna-sdk\\sdk\\interfaces\\c_physicscollision.h",
+        "ProvidedModule": "",
+        "Includes": [
+            "c:\\users\\miguel\\desktop\\dna-sdk\\sdk\\interfaces\\v_collide_t.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
