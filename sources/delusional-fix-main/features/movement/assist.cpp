@@ -2,6 +2,7 @@
 #include <vector>
 #include <memory>
 #include "prediction/prediction.hpp"
+#include "pixelsurf_calculator.h"
 #include <imgui/imgui_internal.h>
 
 #undef max;
@@ -81,7 +82,7 @@ public:
 		constexpr int MAX_VISIBLE_WINDOWS = 5;
 
 
-		ImVec2 infoTextSize = fonts::assist_font->CalcTextSizeA(12.f, FLT_MAX, NULL, info.c_str());		// ?????????????????? //ужас
+		ImVec2 infoTextSize = fonts::assist_font->CalcTextSizeA(12.f, FLT_MAX, NULL, info.c_str());		// ?????????????????? //пїЅпїЅпїЅпїЅ
 		float heightPadding = 22.0f;
 		float windowHeight = (infoTextSize.y + heightPadding) / 1080.0f;
 
@@ -242,7 +243,7 @@ public:
 
 				draw->AddRectFilled(pos, ImVec2(pos.x + size.x, pos.y + size.y), bgColor, cornerRadius);
 
-				auto accentColor = ImVec4(menu::menu_accent[0], menu::menu_accent[1], menu::menu_accent[2], 1.f);		// ?????????????????????????? ImGuiCol_Accent //без мя даж акцент хакнуть не смог XD
+				auto accentColor = ImVec4(menu::menu_accent[0], menu::menu_accent[1], menu::menu_accent[2], 1.f);		// ?????????????????????????? ImGuiCol_Accent //пїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅ XD
 				accentColor.w = win.alpha;
 
 				const float accentHeight = 1.0f;
